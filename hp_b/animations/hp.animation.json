@@ -1,0 +1,15 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.hp": {
+      "loop": true,
+      "timeline": {
+        "0.0": [
+          "v.hp = q.scoreboard('hp');",
+          "@s hp:set_score"
+        ]
+      },
+      "animation_length": 0.01
+    }
+  }
+}

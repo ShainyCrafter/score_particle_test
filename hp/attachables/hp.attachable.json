@@ -1,0 +1,33 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "minecraft:stick",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+        "default": "textures/items/stick",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.bow_pulling_0"
+      },
+      "particle_effects": {
+        "hp_particle": "hp:hp"
+      },
+      "animations": {
+        "hp_animation": "animation.hp"
+      },
+      "scripts": {
+        "animate": [
+          "hp_animation"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.item_default"
+      ]
+    }
+  }
+}
